@@ -26,6 +26,7 @@ if(menuLink.length > 0){
     }
 }
 
+//Google Maps
 function initMap(){
     let opt = {
         center:{lat: 56.331590, lng: 36.728724},
@@ -37,6 +38,7 @@ function initMap(){
         map: map,
     });
 }
+
 
 let header = document.querySelector('header');
 
